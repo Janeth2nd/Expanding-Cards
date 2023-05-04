@@ -25,13 +25,13 @@ CSS, HTML y JAVASCRIPT.
 
 ## 4. Vista 1
 
-![Vista 1](src/img/melty-world1.png)
+![Vista 1](img/melty-world1.png)
 
 ## 5. Vista 2
 
-![Vista 2](src/img/i-can-see-u2.png)
+![Vista 2](img/i-can-see-u2.png)
 
 ## 6. Vista 3
 
-![Vista 3](src/img/Mister-melty3.png)
+![Vista 3](img/Mister-melty3.png)
 
