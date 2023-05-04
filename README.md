@@ -29,13 +29,13 @@ CSS, HTML y JAVASCRIPT.
 
 ## 5. Vista 2
 
-Al momento en que el cursor pase por una imagen, el fondo cambiará a color negro.
+
 
 ![Vista 2](src/img/vista2poke.png)
 
 ## 6. Vista 3
 
-Si el usuario coloca el cursor en cualquier nombre de un pokemon, el tamaño de la letra se hará más grande.
+
 
 ![Vista 3](src/img/vista3poke.png)
 
