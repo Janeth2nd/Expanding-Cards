@@ -11,13 +11,13 @@
 ***
 
 ## 1. Resumen del proyecto
-
-El objetivo del proyecto, consiste en mostrar tarjetas expandibles, cada panel con su imagen de fondo, al momento de que el usuario de click en alguna imagen, 
-esta se expandirá y se mostrará la imagen completa así como su nombre; en consecuencia el tamaño de las demás se reducirá.
+El objetivo de este proyecto parte de la necesidad de practicar mis hablidades en el Front-End (basándome en 50 Projects In 50 Days) con la finalidad de mejorar la manipulación del Dom, eventos, arreglos, estilos, transiciones, etc.
+ 
+La temática de este pequeño proyecto consiste en mostrar tarjetas expandibles, cada panel incluye su propia imagen de fondo, al momento de que el usuario de click en alguna imagen, esta se expandirá y se mostrará la imagen completa así como su nombre; en consecuencia el tamaño de las demás se reducirá.
 
 ## 2. Investigación UX
 
-Este pequeño proyecto está dirigido a las personas interesadas en el arte de Buff Monster.
+Expanding-Cards está dirigido a personas interesadas en el arte de Buff Monster.
 
 ## 3. Herramientas Implementadas
 
@@ -25,17 +25,13 @@ CSS, HTML y JAVASCRIPT.
 
 ## 4. Vista 1
 
-![Vista 1](src/img/vista1poke.png)
+![Vista 1](src/img/melty-world1.png)
 
 ## 5. Vista 2
 
-
-
-![Vista 2](src/img/vista2poke.png)
+![Vista 2](src/img/i-can-see-u2.png)
 
 ## 6. Vista 3
 
-
-
-![Vista 3](src/img/vista3poke.png)
+![Vista 3](src/img/Mister-melty3.png)
 
