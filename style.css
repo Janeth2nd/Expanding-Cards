@@ -3,14 +3,13 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'UnifrakturCook';
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
-
 }
 
 .container {
@@ -24,27 +23,45 @@ body {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: #080101;
     cursor: pointer;
-    flex: 0.5;
+    flex: .8;  /* ancho de las imágenes que no están seleccionadas*/
     margin: 10px;
     position: relative;
-    -webkit-transition: all 700ms ease-in;
+    transition: all;
+    transition-duration: 900ms;
+    transition-timing-function: ease-out;
+    
 }
 
-.panel h2 {
-    font-size: 24px;
+.panel h1 {
+    text-shadow: 1px 1px 2px rgb(221, 216, 219), 0 0 1em rgb(252, 15, 200), 0 0 0.2em rgb(129, 111, 125);
+    font-size: 35px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    margin: 0;
+    margin-right: auto;
+    bottom: 85%;
     opacity: 0;
+    margin-left: 21%;
+    color: #000000;
+}
+.panel h2 {
+    text-shadow: 1px 1px 2px rgb(221, 216, 219), 0 0 1em rgb(252, 15, 200), 0 0 0.2em rgb(129, 111, 125);
+    font-size: 35px;
+    position: absolute;
+    margin-right: auto;
+    bottom: -5%;
+    opacity: 0;
+    margin-left: 21%;
+    color: #0c0c0c;
 }
 
 .panel.active {
     flex: 8;
 }
 
+.panel.active h1 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
 .panel.active h2 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
@@ -55,8 +72,8 @@ body {
         width: 100vw;
     }
 
-    .panel:nth-of-type(4),
+    .panel:nth-of-type(4), /*La pseudo-clase :nth-of-type()selecciona uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos.*/
     .panel:nth-of-type(5) {
-        display: none;
+        display: none;  /*Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there:*/
     }
 }
