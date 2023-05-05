@@ -24,7 +24,7 @@ body {
     height: 80vh;
     border-radius: 50px;
     cursor: pointer;
-    flex: .8;  /* ancho de las imágenes que no están seleccionadas*/
+    flex: .8; 
     margin: 10px;
     position: relative;
     transition: all;
@@ -72,8 +72,8 @@ body {
         width: 100vw;
     }
 
-    .panel:nth-of-type(4), /*La pseudo-clase :nth-of-type()selecciona uno o más elementos de un tipo dado, en función de su posición entre un grupo de hermanos.*/
+    .panel:nth-of-type(4), 
     .panel:nth-of-type(5) {
-        display: none;  /*Hiding an element can be done by setting the display property to none. The element will be hidden, and the page will be displayed as if the element is not there:*/
+        display: none; 
     }
 }
